@@ -819,6 +819,31 @@ section.lazy-placeholder:after {
 .cid-rGRcIBt9cF .mbr-section-btn {
   color: #ffffff;
 }
+.cid-rMjHIUFyx5 {
+  padding-top: 45px;
+  padding-bottom: 0px;
+  background-color: #232323;
+}
+.cid-rMjHIUFyx5 H2 {
+  color: #ffffff;
+}
+.cid-rMjHIUFyx5 .mbr-section-subtitle {
+  color: #ffffff;
+}
+.cid-rMjzv2SJLy {
+  background-image: url("../../../assets/images/mbr-1-1920x960.jpg");
+}
+.cid-rMjzv2SJLy .mbr-section-subtitle {
+  letter-spacing: .2rem;
+}
+.cid-rMjzv2SJLy .media-container-column {
+  background-color: #232323;
+}
+@media (max-width: 767px) {
+  .cid-rMjzv2SJLy .media-container-column {
+    padding: 1rem !important;
+  }
+}
 .cid-rGTTzbDJO7 {
   padding-top: 120px;
   padding-bottom: 45px;
