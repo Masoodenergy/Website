@@ -2339,6 +2339,8 @@
 				width: 100%;
 			}
 
+			
+
 /* List */
 
 	ol {
@@ -2707,7 +2709,7 @@
 /* Main */
 
 	.main {
-		padding: 6em 0 4em 0 ;
+		padding: 4em 0 2.5em 0 ;
 	}
 
 		.main.style1 {
@@ -2715,11 +2717,12 @@
 		}
 
 		.main.style2 {
-			background-color: #333;
-			color: rgba(255, 255, 255, 0.75);
-			background-attachment: fixed,							fixed;
-			background-image: url("images/overlay1.png"), url("../../images/pexels-photo.jpg");
-			background-size: auto,							cover;
+			background-color: #4686a0;
+			color: rgba(255, 255, 255, 0.9);
+			background-attachment: fixed,							fixed,							fixed;
+			background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+			background-position: top left,						center center,					center center;
+			background-size: auto,							cover,							cover;
 		}
 
 			.main.style2 a {
@@ -2919,6 +2922,8 @@
 				top: 100%;
 				width: 1px;
 			}
+
+
 
 		#header .inner {
 			-moz-transition: -moz-transform 1.5s ease, opacity 2s ease;
@@ -3317,38 +3322,39 @@
 	@media screen and (max-width: 480px) {
 
 		/* List */
+		
 
 			ul.actions {
 				margin: 0 0 2em 0;
 			}
 
-				ul.actions li {
-					display: block;
-					padding: 1em 0 0 0;
-					text-align: center;
-					width: 100%;
-				}
+			ul.actions li {
+				display: block;
+				padding: 1em 0 0 0;
+				text-align: center;
+				width: 100%;
+			}
 
-					ul.actions li:first-child {
-						padding-top: 0;
-					}
+			ul.actions li:first-child {
+				padding-top: 0;
+			}
 
-					ul.actions li > * {
-						margin: 0 !important;
-						width: 100%;
-					}
+			ul.actions li > * {
+				margin: 0 !important;
+				width: 100%;
+			}
 
-						ul.actions li > *.icon:before {
-							margin-left: -2em;
-						}
+			ul.actions li > *.icon:before {
+				margin-left: -2em;
+			}
 
-				ul.actions.small li {
-					padding: 0.5em 0 0 0;
-				}
+			ul.actions.small li {
+				padding: 0.5em 0 0 0;
+			}
 
-					ul.actions.small li:first-child {
-						padding-top: 0;
-					}
+			ul.actions.small li:first-child {
+				padding-top: 0;
+			}
 
 		/* Button */
 
